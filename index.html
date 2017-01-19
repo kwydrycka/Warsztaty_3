@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Warsztaty 3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="js/app.js"></script>
+
+    </head>
+    <body>
+          <div id="mainContainer"> 
+        
+       
+            <div id="newBook">
+               <form action="#" method="POST" name="addBook">
+                     <label> <h3>Type new book:</h3>
+                          Title: <input type="text" name="name"/> <br/>
+                          Author: <input type="text" name="author"/> <br/>
+                          Description: <input type="text" name="description"/> <br/>
+                          <input type="submit" name="addBook" value="Add Book" /> <br/><br/>
+                     </label>
+                </form>
+            </div>
+    
+            <h3>The list of books below. Click on title to see details.</h3>
+            <div class="bookList">
+               <!--empty div for generate books in js --> 
+            </div>
+    
+          </div>
+    </body>
+</html>
